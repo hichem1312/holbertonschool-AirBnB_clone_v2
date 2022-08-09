@@ -25,7 +25,7 @@ class FileStorage:
     __objects = {}
 
     def all(self, cls=None):
-        """ Return the dictionary """
+        """  returns the list of objects of one type of class """
         fs_objects = {}
         if cls:
             if type(cls) is str and cls in classes:
